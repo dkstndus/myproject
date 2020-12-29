@@ -1,0 +1,89 @@
+contact
+팝업창으로??
+010-2017-0341
+suyeonahn36@gmail.com
+
+Copyright ⓒ Su Yeon Ahn, All rights reserved.
+
+---------------------------------------------------------------------------
+
+이미지도 넣기
+
+potoshop 다양한 그래픽 툴의 사용과 응용
+html 웹 표준 준수, 시맨틱 태그, 사용자의 편리성을 고려한 마크업
+css CSS3 속성의 이해, 완벽한 디자인 구현
+javascript 기초적인 이해, 이벤트 핸들러, JQUERY 플러그인 사용
+jquery
+sass
+ajax
+vue
+github
+atom
+
+
+about me,profile
+안수연
+web puvlisher, south korea
+정확한 디자인구현과 팀원과의 원활한 협업을 위해 노력하는 웹퍼블리셔입니다.
+기술 트렌드와 디자인에 대한 지속적인 관심과 효율적인 시멘틱 웹페이지 구축을 위하여 고민하고 노력합니다.
+html,css,javascript,jquery를 이용하여 웹 페이지를 제작합니다.
+
+profile
+이름:안수연
+나이:35세(1986.2.4)
+주소: 대구시 달성군
+연락처:010-2017-0341
+E-mail:suyeonahn36@gmail.com
+
+history
+2020.08 ~ 2020.12 : 웹퍼블리셔/프론트앤드 개발자(Frontend, PHP)- 디지털컨버전스 [그린컴퓨터아카데미]
+2011.09 ~ 2015.10 : 개인쇼핑몰 운영(카페24)
+2010.05 ~ 2011.07 : 플라이투유 웹디자인(상세페이지 작성)
+2009.03 ~ 2010.01 : 동대문디자이너
+2006.03 ~ 2008.02 : 대구 한국폴리텍 섬유패션대학 패션디자인과 졸업
+
+license
+패션디자인 산업기사
+정보처리 기능사
+
+skill
+치수올라가는 제이쿼리로 처리
+반응형웹,웹표준,크로스브라우징
+---------------------------------------------------------------------------------------------
+
+
+
+MY PROFILE/ PORTFOLIO 01 02 03 04
+
+01
+
+BONCO
+직접 디자인한 고정형 웹 페이지
+심플한 생활용품을 판매하는 웹 페이지로 컨샙을 잡았습니다.
+html.css,jquery,swiper를 사용하여 구연하였습니다.
+
+color swich ...
+web site,sub site,
+
+
+
+02
+
+GURM BY H
+sass를 이용하여 구현한 웹페이지
+GURM BY H웹 페이지 내에 KIDS의류로 컨셉을 잡았습니다
+html,css,sass,지도추가
+
+color swich...
+web site,sub site,sub site,sub site(지도)
+
+
+03
+
+APPLE
+APPLE사의 메인페이지를 미디워커리를 이용한 웹사이트 구현
+html,css,jquery
+
+color swich
+web site
+
