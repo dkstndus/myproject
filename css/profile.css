@@ -278,21 +278,21 @@ html,body{
   position: relative;
   top: 80px;
   opacity: 0;
-  animation: ani 1s ease forwards;
+  animation: ani 1s ease .5s forwards;
 }
 
 #profile_area .ani02{
   position: relative;
   top: 80px;
   opacity: 0;
-  animation: ani 1s ease .5s forwards;
+  animation: ani 1s ease 1s forwards;
 }
 
 #profile_area .ani03{
   position: relative;
   top: 80px;
   opacity: 0;
-  animation: ani 1s ease 1s forwards;
+  animation: ani 1s ease 1.5s forwards;
 }
 
 @keyframes ani{
