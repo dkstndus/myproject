@@ -231,7 +231,7 @@ html,body{
 
 /* left fixed */
 #left_fixed{
-  position: fixed;
+  position: absolute;
   width: 330px;
   left: 0;
   top: calc( 50% + 160px );
@@ -371,20 +371,20 @@ html,body{
   justify-content: center;
 }
 
-#container .footer_text{
+#main_wrap .footer_text{
   clear: both;
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  padding-top: 95px;
+  padding: 95px 0 20px;
 }
 
-#container .footer_text p:nth-child(2){
+#main_wrap .footer_text p:nth-child(2){
   position: relative;
   padding-left: 60px;
 }
 
-#container .footer_text p:nth-child(2):before{
+#main_wrap .footer_text p:nth-child(2):before{
   content: '';
   position: absolute;
   display: block;
@@ -397,7 +397,7 @@ html,body{
 
 /* aside area */
 #portfoilo_list{
-  position: fixed;
+  position: absolute;
   top: 200px;
   right: 0;
   width: 350px;

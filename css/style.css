@@ -232,7 +232,7 @@ html,body{
 
 /* left fixed */
 #left_fixed{
-  position: fixed;
+  position: absolute;
   width: 330px;
   left: 0;
   top: calc( 50% + 160px );
@@ -322,8 +322,6 @@ html,body{
   }
 }
 
-
-
 #container img{
   float: left;
   box-shadow: 0px 0px 20px rgba(0,0,0,.5);
@@ -388,9 +386,6 @@ html,body{
   background: #f96c2e;
 }
 
-
-
-
 #container .btn{
   margin-top: 30px;
 }
@@ -408,21 +403,20 @@ html,body{
   background: #000;
 }
 
-#container .footer_text{
+#main_wrap .footer_text{
   clear: both;
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  padding-top: 95px;
-  padding-right: 155px;
+  padding: 95px 200px 20px 70px;
 }
 
-#container .footer_text p:nth-child(2){
+#main_wrap .footer_text p:nth-child(2){
   position: relative;
   padding-left: 60px;
 }
 
-#container .footer_text p:nth-child(2):before{
+#main_wrap .footer_text p:nth-child(2):before{
   content: '';
   position: absolute;
   display: block;
@@ -433,12 +427,9 @@ html,body{
   background: #000;
 }
 
-
-
-
 /* aside area */
 #portfoilo_list{
-  position: fixed;
+  position: absolute;
   top: 200px;
   right: 0;
   width: 350px;
