@@ -9,7 +9,6 @@ html,body{
   font-family: 'Noto Serif JP', serif;
 }
 
-
 /* 공통 리스트 파일 */
 .list_file p{
   position: relative;
@@ -87,7 +86,7 @@ html,body{
 
 /* popup area */
 #contact_popup{
-  position: absolute;
+  position: fixed;
   display: block;
   top: 0;
   bottom: 0;
