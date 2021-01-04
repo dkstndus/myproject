@@ -1,5 +1,4 @@
 $(function(){
-  /*script 영역 count animation 만들기 예*/
   $(".flex_box .count").each(function(){
     $(this).prop('Counter',0).animate({Counter: $(this).text()},{
       duration: 4000,
@@ -8,7 +7,6 @@ $(function(){
           $(this).text(Math.ceil(now));
       }
     });
-    // console.log($(this).prop('Counter'));
   });
 
   $(".nav_contact a").click(function(){
@@ -17,4 +15,4 @@ $(function(){
       $("#contact_popup").css("display","none");
     });
   });
-});// document ready
+});
