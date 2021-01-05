@@ -252,7 +252,7 @@ html,body{
 }
 
 #container{
-  width: 1000px;
+  width: 1050px;
   padding: 0 100px 0 70px;
 }
 
@@ -426,7 +426,7 @@ html,body{
 }
 
 /* aside area */
-#portfoilo_list{
+#portfolio_list{
   position: absolute;
   top: 200px;
   right: 0;
@@ -440,11 +440,11 @@ html,body{
   transition: 1s;
 }
 
-#portfoilo_list > p{
+#portfolio_list > p{
   font-weight: bold;
 }
 
-#portfoilo_list .list_inner{
+#portfolio_list .list_inner{
   display: flex;
   align-items: center;
   background: #d7d6d4;
@@ -454,48 +454,52 @@ html,body{
   transition: .5s;
 }
 
-#portfoilo_list .list_inner p{
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-#portfoilo_list .list_inner:nth-of-type(1){
-  margin-top: 20px;
-}
-
-#portfoilo_list .list_inner:hover{
+#portfolio_list .list_inner.on{
   background: #fff;
 }
 
-#portfoilo_list .list{
+#portfolio_list .list_inner p{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#portfolio_list .list_inner:nth-of-type(1){
+  margin-top: 20px;
+}
+
+#portfolio_list .list_inner:hover{
+  background: #fff;
+}
+
+#portfolio_list .list{
   display: flex;
   align-items: center;
   width: 100%;
   /* overflow: hidden; */
 }
 
-#portfoilo_list .list img{
+#portfolio_list .list img{
   float: left;
   margin-left: 10px;
   box-shadow: 2px 2px 5px rgba(0,0,0,.4);
 }
 
-#portfoilo_list .list .list_name{
+#portfolio_list .list .list_name{
   width: 70%;
   clear: both;
   padding-left: 15px;
 }
 
-#portfoilo_list .list .list_name > p{
+#portfolio_list .list .list_name > p{
   font-weight: bold;
 }
 
-#portfoilo_list .list .list_name .list_file p{
+#portfolio_list .list .list_name .list_file p{
   display: inline-block;
   font-size: 12px;
   padding-right: 10px;
 }
 
-#portfoilo_list .list .list_name .list_file p:after{
+#portfolio_list .list .list_name .list_file p:after{
   right: 2px;
 }
 
@@ -571,10 +575,10 @@ label.list_btn{
   label.list_btn{
     display: block;
   }
-  #portfoilo_list{
-    right: -100%;
+  #portfolio_list{
+    right: -500px;
   }
-  input[type=checkbox]#list_close_btn:checked ~ #portfoilo_list{
+  input[type=checkbox]#list_close_btn:checked ~ #portfolio_list{
     right: -20px;
   }
   .list_close_btn{
