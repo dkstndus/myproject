@@ -546,7 +546,7 @@ label.list_btn{
     display: block;
   }
   #portfolio_list{
-    right: -100%;
+    right: -500px;
   }
   input[type=checkbox]#list_close_btn:checked ~ #portfolio_list{
     right: -20px;
