@@ -384,6 +384,19 @@ html,body{
   background: #f96c2e;
 }
 
+#container .color_swich .color04{
+  background: #1c442c;
+}
+
+#container .color_swich .color04:nth-of-type(2){
+  background: #eef4e8;
+}
+
+#container .color_swich .color04:nth-of-type(3){
+  background: #adb586;
+}
+
+
 #container .btn{
   margin-top: 30px;
 }
