@@ -396,6 +396,19 @@ html,body{
   background: #adb586;
 }
 
+#container .color_swich .color05{
+  background: #007597;
+}
+
+#container .color_swich .color05:nth-of-type(2){
+  background: #f0f0f0;
+}
+
+#container .color_swich .color05:nth-of-type(3){
+  background: #67b9c5;
+}
+
+
 
 #container .btn{
   margin-top: 30px;
